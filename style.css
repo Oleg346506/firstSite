@@ -1,0 +1,103 @@
+@charset "utf-8";
+body {
+    margin:0;
+    padding:0;
+    
+    background:#8FBC8F url(images/tel.jpg) no-repeat 0 190px fixed;
+    
+}
+#product {
+	width: 13rem;
+	margin:70px 100px;
+	float:left;
+	
+    text-align: center;
+     
+}
+#product:hover {
+    /* элемент тени если наведен курсор */ 
+    -webkit-box-shadow: 5px 5px 5px 5px #E0C2C2;
+    /* элемент тени если наведен курсор конец */
+}
+.disign {
+    width: 167px;
+    height:142px;
+	margin:20px 25px;
+	float:left;
+	text-align: center;
+    
+}
+.disign:hover {
+    /* элемент тени если наведен курсор */ 
+    -webkit-box-shadow: 5px 5px 5px 5px #E0C2C2;
+    /* элемент тени если наведен курсор конец */
+}
+
+ h4,h5 {
+	
+    height:30px;
+    color: #777777;
+	margin:0;
+    padding-top:10px;
+    border: 0;
+    background-image:url(images/tablebg.jpg);
+}
+.prewiev {
+	cursor:pointer;
+    width:207px;
+    height:240px;
+    z-index:1;
+}
+.prewiev:focus{
+    width:500px;
+    height:500px;
+    z-index:2;
+    position:absolute;
+    top:75px;
+    left:430px;
+    position:fixed;
+}
+
+
+#header1{
+    width:535px;
+    height:250px; 
+    margin:29px auto; 
+    background-image:url(images/борис.jpg); 
+        
+}
+#header2{
+    text-align:center;
+    color:#cc0000;
+    margin:15px 20px;
+    padding:33px 25px;
+    font:36px Arrial;
+    background-color:#E4E3DC;
+    background-image:url(images/juteks.bmp);
+    background-repeat:no-repeat;
+    background-position:538px 39px;
+}
+/*#wrapper {
+    background-image:url(images/tel.jpg); 
+    background-repeat:no-repeat;
+    outline:1px solid #cc0000;
+   
+}*/
+#new {
+position:absolute;
+}
+#operator {
+position:fixed;
+width:22px;
+height:180px;
+top:0px;
+left:0;
+}
+
+#operator img {
+border:none;
+}
+
+h4:nth-child(1) {
+color:#cc0000;
+}
